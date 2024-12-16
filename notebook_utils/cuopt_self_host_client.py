@@ -255,7 +255,7 @@ class CuOptServiceSelfHostClient:
                 content_type = "application/json"
             else:
                 data, content_type = serialize(cuopt_problem_data)
-            headers["CLIENT-VERSION"] = "24.11"
+            headers["CLIENT-VERSION"] = "24.11.local"
             # Immediately return and then poll on the id
             if output:
                 headers["CUOPT-RESULT-FILE"] = output
