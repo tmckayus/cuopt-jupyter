@@ -1,8 +1,8 @@
-# cuOpt Server Notebooks
+# cuOpt Self-Hosted Service in Jupyter
 
-Contains a collection of Jupyter Notebooks that outline how cuOpt self hosted service can be used to solve a wide variety of problems.
+This repository contains a collection of Jupyter Notebooks that outline how the cuOpt self-hosted service can be used to solve a wide variety of problems.
 
-These notebooks use a lightweight Python client included in this directory which should work with any minor version of Python 3. Additionally, an **install.ipynb** notebook is included which downloads and runs the cuOpt container image on the Jupyter server host (requires sudo privileges by the user running the notebook).
+These notebooks use the standard cuopt-sh client which will work with Python 3.10+. Additionally, an **install.ipynb** notebook is included which downloads and runs the cuOpt container image on the Jupyter server host (requires sudo privileges by the user running the notebook and an api-key that has access to the cuOpt container).
 
 ## Summary
 
