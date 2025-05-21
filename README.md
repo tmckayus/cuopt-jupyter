@@ -1,10 +1,6 @@
-# cuOpt Self-Hosted Service in Jupyter
+# cuOpt in Jupyter
 
-This repository contains a Jupyter notebook that will install the cuOpt service and example notebooks. The notebook will:
+This repository contains a Jupyter notebook that will install any missing libraries needed by cuOpt on the Jupyter host
+and download additional notebooks from github.com/NVIDIA/cuopt-examples.
 
-* Install necessary dependencies on the Jupyter host
-* Install cuOpt example notebooks from github/NVIDIA/cuopt-examples in the **examples** directory
-  * A separate license included in the **examples** directory applies to content from the github/NVIDIA/cuopt-examples repository
-* Download the cuOpt container from NVIDIA NGC
-
-Once installed, the cuOpt service may be started and stopped as needed from the notebook.
+It is designed for use with a NVIDIA Brev Launchable, but may be used on other platforms as well.
